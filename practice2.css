@@ -1,0 +1,59 @@
+body {
+    box-sizing: border-box;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#div1 {
+    background-image: url('girl\ with\ sunglasses.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 1365.5px;
+    height: 641px;
+    filter: contrast(blue, white);
+    filter: drop-shadow(black);
+    position: relative;
+}
+
+a {
+    float: right;
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    display: block;
+    font-size: 30px;
+}
+
+#jana {
+    float: left;
+}
+
+a:hover {
+    color: black;
+}
+
+h1 {
+    position: absolute;
+    top: 280px;
+    left: 400px;
+    color: white;
+    color: rgb(83, 83, 83);
+}
+
+h3 {
+    position: absolute;
+    top: 310px;
+    left: 415px;
+    color: white;
+    font-size: 40px;
+}
+
+p {
+    position: absolute;
+    top: 380px;
+    left: 400px;
+    color: white;
+    color: rgb(64, 64, 65);
+}
